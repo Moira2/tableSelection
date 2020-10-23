@@ -1,0 +1,12 @@
+<html>
+    111
+    <span id="textContent">aaaaaaa<br/>bb bbbb</span>
+</html>
+<script>
+    var a = document.getElementById('textContent').innerHTML
+    console.log(a)
+    var b = a.replace(/<\/?.+?>/g,"");
+    b = b.replace(/[ \r\n]/g, ""); 
+    // var b = a.replace(/[ \r\n]/g,"")
+    console.log(b)
+</script>
