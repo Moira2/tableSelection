@@ -5,7 +5,8 @@
     <!-- <TableSelection></TableSelection> -->
     <!-- <popupComp></popupComp> -->
     <!-- <gradientFont></gradientFont> -->
-    <awesome-swiper></awesome-swiper>
+    <!-- <awesome-swiper></awesome-swiper> -->
+    <new-carousel> </new-carousel>
   </div>
 </template>
 
@@ -14,7 +15,8 @@
 // import TableSelection from './components/tableSelection.vue'
 // import popupComp from "./components/popupComp.vue";
 // import gradientFont from "./components/gradientFont.vue"
-import awesomeSwiper from "./components/awesomeSwiper.vue";
+// import awesomeSwiper from "./components/awesomeSwiper.vue";
+import newCarousel from "./components/newCarousel.vue";
 
 export default {
   name: "App",
@@ -23,7 +25,8 @@ export default {
     // TableSelection,
     // popupComp,
     // gradientFont,
-    awesomeSwiper
+    // awesomeSwiper,
+    newCarousel,
   },
 };
 </script>
